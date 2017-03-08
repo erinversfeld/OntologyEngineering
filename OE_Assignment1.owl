@@ -1,0 +1,613 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/guy/ontologies/2017/2/OEAssignment1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/guy/ontologies/2017/2/OEAssignment1">
+    <Prefix name="" IRI="http://www.semanticweb.org/guy/ontologies/2017/2/OEAssignment1"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Spy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wide_angle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#.mov"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Screening_Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#File_Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comedy_of_manners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polariser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slapstick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shock_mount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documentary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Costume_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinematographer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adventure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horror"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mixer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Episode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychodrama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wireless_microphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Murder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#.flv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IMdB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experimental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rotten_Tomato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Headphones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#.wmv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Melodrama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musical_&amp;_Dance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bolly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shotgun_microphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audio_recorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Music_Supervisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Period"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Three_point_lighting_kit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action_thriller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swashbuckler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tragedy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#.mp4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Art_Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#.avi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#War"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaming_Consoles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dark_humour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Romance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HD_camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legal_drama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sound_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crime_&amp;_Mystery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SciFi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reflector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boom_pole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Production_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3D_camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Superhero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Screenwriter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comedy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cellphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Editor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Series"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#.mng"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Western"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Macro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rating"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action_thriller"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actor"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adventure"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Art_Director"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audio_recorder"/>
+        <Class IRI="#Sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bolly"/>
+        <Class IRI="#Musical_&amp;_Dance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boom_pole"/>
+        <Class IRI="#Sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camera"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cellphone"/>
+        <Class IRI="#Screening_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinematographer"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comedy"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comedy_of_manners"/>
+        <Class IRI="#Comedy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer"/>
+        <Class IRI="#Screening_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Costume_Designer"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dark_humour"/>
+        <Class IRI="#Comedy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documentary"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drama"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Editor"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experimental"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming_Consoles"/>
+        <Class IRI="#Screening_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HD_camera"/>
+        <Class IRI="#Camera"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headphones"/>
+        <Class IRI="#Sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Historical"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horror"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IMdB"/>
+        <Class IRI="#Rating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legal_drama"/>
+        <Class IRI="#Drama"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lens"/>
+        <Class IRI="#Camera"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lighting"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macro"/>
+        <Class IRI="#Lens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melodrama"/>
+        <Class IRI="#Drama"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mixer"/>
+        <Class IRI="#Sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Murder"/>
+        <Class IRI="#Crime_&amp;_Mystery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Music_Supervisor"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opera"/>
+        <Class IRI="#Musical_&amp;_Dance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Period"/>
+        <Class IRI="#Historical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polariser"/>
+        <Class IRI="#Lens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producer"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Production_Designer"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protective"/>
+        <Class IRI="#Lens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychodrama"/>
+        <Class IRI="#Drama"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reflector"/>
+        <Class IRI="#Lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Romance"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rotten_Tomato"/>
+        <Class IRI="#Rating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SciFi"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Screenwriter"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shock_mount"/>
+        <Class IRI="#Sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shotgun_microphone"/>
+        <Class IRI="#Sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slapstick"/>
+        <Class IRI="#Comedy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound_Designer"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spy"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Superhero"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swashbuckler"/>
+        <Class IRI="#Adventure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TV"/>
+        <Class IRI="#Screening_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tablet"/>
+        <Class IRI="#Screening_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tape"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Three_point_lighting_kit"/>
+        <Class IRI="#Lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tragedy"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#War"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Western"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wide_angle"/>
+        <Class IRI="#Lens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wireless_microphone"/>
+        <Class IRI="#Sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoom"/>
+        <Class IRI="#Lens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#.avi"/>
+        <Class IRI="#File_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#.flv"/>
+        <Class IRI="#File_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#.mng"/>
+        <Class IRI="#File_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#.mov"/>
+        <Class IRI="#File_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#.mp4"/>
+        <Class IRI="#File_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#.wmv"/>
+        <Class IRI="#File_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3D_camera"/>
+        <Class IRI="#Camera"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crime_&amp;_Mystery"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musical_&amp;_Dance"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Episode"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Equipment"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Person"/>
+        <Class IRI="http://www.semanticweb.org/erin/ontologies/2017/2/untitled-ontology-3#Season"/>
+        <Class IRI="#File_Types"/>
+        <Class IRI="#Genre"/>
+        <Class IRI="#Movie"/>
+        <Class IRI="#Rating"/>
+        <Class IRI="#Screening_Platform"/>
+        <Class IRI="#Series"/>
+        <Class IRI="#Video"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cellphone"/>
+        <Class IRI="#Computer"/>
+        <Class IRI="#Gaming_Consoles"/>
+        <Class IRI="#TV"/>
+        <Class IRI="#Tablet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#.avi"/>
+        <Class IRI="#.flv"/>
+        <Class IRI="#.mng"/>
+        <Class IRI="#.mov"/>
+        <Class IRI="#.mp4"/>
+        <Class IRI="#.wmv"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
